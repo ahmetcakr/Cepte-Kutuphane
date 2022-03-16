@@ -1,0 +1,15 @@
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\bin\Debug\netstandard2.0\CepteKutuphane.deps.json
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\bin\Debug\netstandard2.0\CepteKutuphane.dll
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\bin\Debug\netstandard2.0\ref\CepteKutuphane.dll
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\bin\Debug\netstandard2.0\CepteKutuphane.pdb
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\CepteKutuphane.csproj.AssemblyReference.cache
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\CepteKutuphane.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\CepteKutuphane.AssemblyInfoInputs.cache
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\CepteKutuphane.AssemblyInfo.cs
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\CepteKutuphane.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\CepteKutuphane.dll
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\ref\CepteKutuphane.dll
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\CepteKutuphane.pdb
+C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\Page1.xaml.g.cs
