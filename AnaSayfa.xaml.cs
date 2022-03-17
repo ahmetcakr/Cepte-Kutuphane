@@ -20,6 +20,9 @@ namespace CepteKutuphane
         public async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new giris());
+
+            button_giris.Text = "AhmetCakir";
+            button_giris.ImageSource = "deneme1.png";
         }
 
         public async void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)

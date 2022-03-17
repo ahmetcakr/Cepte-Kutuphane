@@ -72,11 +72,12 @@
                     FontAttributes="Bold"
                     TextColor="CornflowerBlue"
                     BackgroundColor="White"
-                    ImageSource="deneme1.png"
+                    ImageSource="giris5.png"
                     Margin="-20,-20,-20,-20"
                     
                     Clicked="TapGestureRecognizer_Tapped"
-                    x:Name="button_giris">
+                    x:Name="button_giris"
+                    >
 
                     <Button.GestureRecognizers>
                         <TapGestureRecognizer

@@ -12,9 +12,6 @@ C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2
 C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\CepteKutuphane.dll
 C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\ref\CepteKutuphane.dll
 C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\CepteKutuphane.pdb
-C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\Page1.xaml.g.cs
-C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\Page2.xaml.g.cs
-C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\Page3.xaml.g.cs
 C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\AnaSayfa.xaml.g.cs
 C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\giris.xaml.g.cs
 C:\Users\ahmet\source\repos\CepteKutuphane\CepteKutuphane\obj\Debug\netstandard2.0\kayit.xaml.g.cs
