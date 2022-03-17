@@ -1,14 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CepteKutuphane.Page1">
+             x:Class="CepteKutuphane.AnaSayfa"
+             
+             
+             >
+    <NavigationPage.TitleView >
+        
+            
+            <Label Text="KÜTÜPHANEM CEPTE" 
+                   TextColor="White"
+                   CharacterSpacing="2"
+                   HorizontalOptions="CenterAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="30"
+                   
+                   />
+       
+    </NavigationPage.TitleView>
+    
+    
     <ContentPage.Content>
-        
-        
-     
-        
 
-            <Grid>
+
+
+
+
+        <Grid>
 
             <Grid.RowDefinitions>
                 <RowDefinition />
@@ -30,22 +48,7 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
-            <Frame 
-                BorderColor="CornflowerBlue"
-                Grid.ColumnSpan="2"
-                
-                
-                />
-
-            <Label 
-                TextColor="CornflowerBlue"
-                Grid.Row="0"
-                Grid.ColumnSpan="2"
-                Text="KÜTÜPHANEM CEPTE"
-                FontAttributes="Bold"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand" 
-                FontSize="25"  />
+            
 
 
 
@@ -63,7 +66,7 @@
                    
                    x:Name="frame_giris"
                    >
-            <Button 
+                <Button 
                     Text="Ahmetcakir"
                     FontSize="30"
                     FontAttributes="Bold"
@@ -72,11 +75,22 @@
                     ImageSource="deneme1.png"
                     Margin="-20,-20,-20,-20"
                     
-                    Clicked="Button_Clicked"
-                    x:Name="button_giris"
-                    />
+                    Clicked="TapGestureRecognizer_Tapped"
+                    x:Name="button_giris">
 
-                
+                    <Button.GestureRecognizers>
+                        <TapGestureRecognizer
+                        Tapped="TapGestureRecognizer_Tapped"
+                        
+                        />
+
+                    </Button.GestureRecognizers>
+
+                </Button>
+
+
+
+
 
 
             </Frame>
@@ -93,19 +107,27 @@
                    BorderColor="CornflowerBlue"
                    
                    x:Name="frame_ekle">
-                
-            <Button 
+
+                <Button 
                     BackgroundColor="White"
                     ImageSource="ekle.png"
                     Margin="-20,-20,-20,-20"
                     
                 
-                    Clicked="Button_Clicked_1"
+                    Clicked="TapGestureRecognizer_Tapped_1"
                     x:Name="button_ekle"
                     
-                    />
+                    >
 
-                </Frame>
+                    <Button.GestureRecognizers>
+                        <TapGestureRecognizer
+                        Tapped="TapGestureRecognizer_Tapped_1"/>
+                    </Button.GestureRecognizers>
+
+
+                </Button>
+
+            </Frame>
 
 
             <Frame Grid.Row="6"
@@ -119,15 +141,23 @@
                    BorderColor="CornflowerBlue"
                    
                    x:Name="frame_kutup">
-                
-            <Button 
+
+                <Button 
                     BackgroundColor="White"
                     ImageSource="kutup.png"
                     Margin="-20,-20,-20,-20"
                     
-                    Clicked="Button_Clicked_2"
+                    Clicked="TapGestureRecognizer_Tapped_2"
                     x:Name="button_kutup"
-                    />
+                    >
+
+                    <Button.GestureRecognizers>
+                        <TapGestureRecognizer
+                        Tapped="TapGestureRecognizer_Tapped_2"/>
+                    </Button.GestureRecognizers>
+
+
+                </Button>
 
             </Frame>
 
@@ -142,21 +172,23 @@
                    BorderColor="CornflowerBlue"
                    
                    x:Name="frame_hakkim">
-                
-            <Button
+
+                <Button
                     BackgroundColor="White"
                     ImageSource="hakkim.png"
                     Margin="-20,-20,-20,-20"
                 
-                    Clicked="Button_Clicked_3"
-                    x:Name="button_hakkim"
                     
-                    />
+                    x:Name="button_hakkim"
+                    Clicked="button_hakkim_Clicked"
+                    
+                    >
+
+                </Button>
 
             </Frame>
 
         </Grid>
-            
-       
+
     </ContentPage.Content>
 </ContentPage>

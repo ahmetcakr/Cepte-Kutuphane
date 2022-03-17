@@ -10,7 +10,7 @@ namespace CepteKutuphane
         {
             InitializeComponent();
 
-            MainPage = new Page1();
+            MainPage = new NavigationPage(new AnaSayfa());
         }
 
         protected override void OnStart()
