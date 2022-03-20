@@ -1,9 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CepteKutuphane"
              x:Class="CepteKutuphane.giris">
-    <ContentPage.Content>
-        <Grid>
+
+
+    <NavigationPage.TitleView >
+
+
+        <Label Text="GİRİS" 
+                   TextColor="White"
+                   CharacterSpacing="2"
+                   HorizontalOptions="StartAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="30"
+                   
+                   
+                   />
+
+    </NavigationPage.TitleView>
+
+
+
+    <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition />
                 <RowDefinition />
@@ -23,40 +42,130 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
                 <ColumnDefinition />
-                
             </Grid.ColumnDefinitions>
 
 
             <Label
-                Text="Nickname: "
-                x:Name="nickname"
+                Text="Nickname:"
                 Grid.Row="3"
                 Grid.Column="0"
-                >
-            </Label>
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="35"
+                
+                TextColor="CornflowerBlue"
+                FontSize="Large"
+                FontAttributes="Bold"
+                
+                />
 
-            <Entry 
+
+
+
+
+
+        <Entry 
                 Grid.Row="3"
-                Grid.Column="2"
-                Grid.ColumnSpan="2"
-                x:Name="kullaniciadi"
-                >
-
-             
-            </Entry>
-
-            <Button
-                Text="OK"
-                Grid.Row="5"
-                Grid.Column="2"
+                Grid.Column="1"
                 Grid.ColumnSpan="2"
                 
+                
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="100"
+                WidthRequest="200"
+                FontSize="20"
+                TextColor="CornflowerBlue"
+                FontAttributes="Bold"
+                Keyboard="Text"
+                
+                BackgroundColor="AliceBlue"
+                
+                
+               
+                >
+        </Entry>
+
+
+        <Label
+                Text="Password:"
+                Grid.Row="5"
+                Grid.Column="0"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="35"
+                
+                TextColor="CornflowerBlue"
+                FontSize="Large"
+                FontAttributes="Bold"
+                
+                />
+
+
+
+
+
+
+        <Entry 
+                Grid.Row="5"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                
+                
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="100"
+                WidthRequest="200"
+                FontSize="20"
+                TextColor="CornflowerBlue"
+                FontAttributes="Bold"
+                Keyboard="Default"
+                IsPassword="True"
+                
+                
+                BackgroundColor="AliceBlue"
+                >
+        </Entry>
+
+
+
+
+        <Button
+                Text="GİRİS"
+                Grid.Row="7"
+                Grid.Column="1"
+                FontSize="20"
+                BackgroundColor="CornflowerBlue"
+                TextColor="White"
+                FontAttributes="Bold"
+                CharacterSpacing="5"
+                />
+        <Button
+                Text="KAYIT"
+                Grid.Row="8"
+                Grid.Column="1"
+                FontSize="20"
+                BackgroundColor="CornflowerBlue"
+                TextColor="White"
+                FontAttributes="Bold"
+                CharacterSpacing="5"
+                
+                x:Name="button_kayit"
+                Clicked="TapGestureRecognizer_Tapped"
                 >
 
-            </Button>
+
+            <Button.GestureRecognizers>
+                <TapGestureRecognizer
+                        Tapped="TapGestureRecognizer_Tapped"
+                        
+                        />
+
+            </Button.GestureRecognizers>
 
 
+        </Button>
 
-        </Grid>
-    </ContentPage.Content>
+
+    </Grid>
 </ContentPage>

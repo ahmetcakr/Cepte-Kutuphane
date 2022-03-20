@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace CepteKutuphane
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -17,5 +18,9 @@ namespace CepteKutuphane
             InitializeComponent();
         }
 
+        public async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new kayit());
+        }
     }
 }
