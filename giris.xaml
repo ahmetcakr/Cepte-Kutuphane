@@ -45,17 +45,19 @@
             </Grid.ColumnDefinitions>
 
 
-            <Label
-                Text="Nickname:"
-                Grid.Row="3"
-                Grid.Column="0"
-                HorizontalOptions="EndAndExpand"
-                VerticalOptions="CenterAndExpand"
+        <Label
+                Text="Nickname :"
+                Grid.Row="2"
+                Grid.Column="1"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
                 HeightRequest="35"
+                
                 
                 TextColor="CornflowerBlue"
                 FontSize="Large"
                 FontAttributes="Bold"
+                Margin="-50,5,-10,-10"
                 
                 />
 
@@ -63,11 +65,22 @@
 
 
 
-
-        <Entry 
-                Grid.Row="3"
-                Grid.Column="1"
-                Grid.ColumnSpan="2"
+        <Frame  
+                   Grid.Row="3"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Grid.RowSpan="1"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   HeightRequest="5"
+                   VerticalOptions="StartAndExpand"
+                   BorderColor="CornflowerBlue"
+                   Margin="-50,-10,-10,-10"
+                
+                
+                >
+            <Entry 
+                
                 
                 
                 HorizontalOptions="CenterAndExpand"
@@ -78,26 +91,30 @@
                 TextColor="CornflowerBlue"
                 FontAttributes="Bold"
                 Keyboard="Text"
-                
-                BackgroundColor="AliceBlue"
-                
+                Margin="-20,-20,10,-20"
                 
                
                 >
-        </Entry>
+            </Entry>
+        </Frame>
+
+
+
 
 
         <Label
-                Text="Password:"
-                Grid.Row="5"
-                Grid.Column="0"
-                HorizontalOptions="EndAndExpand"
-                VerticalOptions="CenterAndExpand"
+                Text="Password :"
+                Grid.Row="4"
+                Grid.Column="1"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
                 HeightRequest="35"
+                
                 
                 TextColor="CornflowerBlue"
                 FontSize="Large"
                 FontAttributes="Bold"
+                Margin="-50,5,-10,-10"
                 
                 />
 
@@ -105,11 +122,22 @@
 
 
 
-
-        <Entry 
-                Grid.Row="5"
-                Grid.Column="1"
-                Grid.ColumnSpan="2"
+        <Frame  
+                   Grid.Row="5"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Grid.RowSpan="1"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   HeightRequest="5"
+                   VerticalOptions="StartAndExpand"
+                   BorderColor="CornflowerBlue"
+                   Margin="-50,-10,-10,-10"
+                
+                
+                >
+            <Entry 
+                
                 
                 
                 HorizontalOptions="CenterAndExpand"
@@ -119,14 +147,15 @@
                 FontSize="20"
                 TextColor="CornflowerBlue"
                 FontAttributes="Bold"
-                Keyboard="Default"
-                IsPassword="True"
+                Keyboard="Text"
+                Margin="-20,-20,10,-20"
                 
                 
-                BackgroundColor="AliceBlue"
+                
+               
                 >
-        </Entry>
-
+            </Entry>
+        </Frame>
 
 
 

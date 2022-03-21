@@ -2,11 +2,336 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CepteKutuphane.kitapekle">
+
+    <NavigationPage.TitleView >
+
+
+        <Label Text="KITAP EKLE" 
+                   TextColor="White"
+                   CharacterSpacing="2"
+                   HorizontalOptions="StartAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="30"
+                   
+                   
+                   />
+
+    </NavigationPage.TitleView>
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+
+
+            <Label
+                Text="Kitap Adı :"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
+                HeightRequest="35"
+                TextColor="CornflowerBlue"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Margin="57,0,-30,-10"/>
+
+            <Frame  
+                   Grid.Row="1"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Grid.RowSpan="1"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   HeightRequest="5"
+                   VerticalOptions="StartAndExpand"
+                   BorderColor="CornflowerBlue"
+                   Margin="20,-10,-10,-10">
+                
+                <Entry 
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="100"
+                WidthRequest="200"
+                FontSize="20"
+                TextColor="CornflowerBlue"
+                FontAttributes="Bold"
+                Keyboard="Text"
+                Margin="-10,-20,20,-28">
+                </Entry>
+                
+            </Frame>
+
+            <Label
+                Text="Yayınevi :"
+                Grid.Row="2"
+                Grid.Column="0"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
+                HeightRequest="35"
+                TextColor="CornflowerBlue"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Margin="65,0,-30,-10"/>
+
+            <Frame  
+                   Grid.Row="2"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Grid.RowSpan="1"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   HeightRequest="5"
+                   VerticalOptions="StartAndExpand"
+                   BorderColor="CornflowerBlue"
+                   Margin="20,-10,-10,-10">
+
+                <Entry 
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="100"
+                WidthRequest="200"
+                FontSize="20"
+                TextColor="CornflowerBlue"
+                FontAttributes="Bold"
+                Keyboard="Text"
+                Margin="-10,-20,20,-28">
+                </Entry>
+
+            </Frame>
+
+            <Label
+                Text="Yazar :"
+                Grid.Row="3"
+                Grid.Column="0"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
+                HeightRequest="35"
+                TextColor="CornflowerBlue"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Margin="92,0,-30,-10"/>
+
+            <Frame  
+                   Grid.Row="3"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Grid.RowSpan="1"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   HeightRequest="5"
+                   VerticalOptions="StartAndExpand"
+                   BorderColor="CornflowerBlue"
+                    Margin="20,-10,-10,-10">
+
+                <Entry 
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="100"
+                WidthRequest="200"
+                FontSize="20"
+                TextColor="CornflowerBlue"
+                FontAttributes="Bold"
+                Keyboard="Text"
+                Margin="-10,-20,20,-28">
+                </Entry>
+
+            </Frame>
+
+
+            <Label
+                Text="Sayfa Sayisi :"
+                Grid.Row="4"
+                Grid.Column="0"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
+                HeightRequest="35"
+                TextColor="CornflowerBlue"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Margin="27,0,-30,-10"/>
+
+            <Frame  
+                   Grid.Row="4"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Grid.RowSpan="1"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   HeightRequest="5"
+                   VerticalOptions="StartAndExpand"
+                   BorderColor="CornflowerBlue"
+                   Margin="20,-10,-10,-10">
+
+                <Entry 
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="100"
+                WidthRequest="200"
+                FontSize="20"
+                TextColor="CornflowerBlue"
+                FontAttributes="Bold"
+                Keyboard="Numeric"
+                Margin="-10,-20,20,-28">
+                </Entry>
+
+            </Frame>
+
+
+            <Label
+                Text="Kitap Türü :"
+                Grid.Row="5"
+                Grid.Column="0"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
+                HeightRequest="35"
+                TextColor="CornflowerBlue"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Margin="45,0,-30,-10"/>
+
+            <Frame  
+                   Grid.Row="5"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Grid.RowSpan="1"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   HeightRequest="5"
+                   VerticalOptions="StartAndExpand"
+                   BorderColor="CornflowerBlue"
+                   Margin="20,-10,-10,-10">
+
+                <Entry 
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="100"
+                WidthRequest="200"
+                FontSize="20"
+                TextColor="CornflowerBlue"
+                FontAttributes="Bold"
+                Keyboard="Text"
+                Margin="-10,-20,20,-28">
+                </Entry>
+
+            </Frame>
+
+            <Label
+                Text="Baslangic Tarihi :"
+                Grid.Row="6"
+                Grid.Column="0"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
+                HeightRequest="35"
+                TextColor="CornflowerBlue"
+                FontSize="20"
+                FontAttributes="Bold"
+                Margin="4,0,-30,-40"/>
+
+            <Frame  
+                   Grid.Row="6"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Grid.RowSpan="1"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   HeightRequest="5"
+                   VerticalOptions="StartAndExpand"
+                   BorderColor="CornflowerBlue"
+                   Margin="20,-10,-10,-10">
+
+                <DatePicker 
+                            HorizontalOptions="StartAndExpand"
+                            VerticalOptions="StartAndExpand"
+                            WidthRequest="200"
+                            HeightRequest="45"
+                            Margin="-8,-15,-30,-40"
+                            TextColor="CornflowerBlue"
+                            FontAttributes="Bold"
+                            FontSize="20">
+                </DatePicker>
+
+            </Frame>
+
+            
+            
+            
+            <Label
+                Text="Bitis Tarihi :"
+                Grid.Row="7"
+                Grid.Column="0"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
+                HeightRequest="35"
+                TextColor="CornflowerBlue"
+                FontSize="20"
+                FontAttributes="Bold"
+                Margin="50,0,-30,-10"/>
+
+            <Frame  
+                   Grid.Row="7"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Grid.RowSpan="1"
+                   HorizontalOptions="StartAndExpand"
+                   WidthRequest="200"
+                   HeightRequest="5"
+                   VerticalOptions="StartAndExpand"
+                   BorderColor="CornflowerBlue"
+                   Margin="20,-10,-10,-10">
+
+                <DatePicker 
+                            HorizontalOptions="StartAndExpand"
+                            VerticalOptions="StartAndExpand"
+                            WidthRequest="200"
+                            HeightRequest="45"
+                            Margin="-8,-15,-30,-40"
+                            TextColor="CornflowerBlue"
+                            FontAttributes="Bold"
+                            FontSize="20">
+                </DatePicker>
+            </Frame>
+
+
+
+            <Button
+                Text="KITAP KAYDET"
+                Grid.Row="10"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                FontSize="20"
+                BackgroundColor="CornflowerBlue"
+                TextColor="White"
+                FontAttributes="Bold"
+                CharacterSpacing="5"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
+                WidthRequest="300"
+                HeightRequest="100"
+                Margin="70,-20,-80,20."
+                />
+
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
